@@ -4,6 +4,7 @@ import SideBar from "../../../components/SideBar/SideBar";
 export default function Experience () {
     return (
         <div className="flex flex-col sm:flex-row bg-[url('/bg/index.jpg')] bg-center ">
+            <title>Experience</title>
             <SideBar />
             <div className="flex flex-col  w-screen justify-center items-center">
                 <div className="flex flex-col w-2/3">
