@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    section {
+        @apply w-full bg-gray-500 hover:bg-gradient-to-b from-gray-500 to-gray-200
+    }
+}
