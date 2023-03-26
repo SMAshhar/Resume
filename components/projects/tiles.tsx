@@ -11,7 +11,7 @@ interface tileProps {
 
 const Tile = ({ id, heading, imageSrc, description, duration }: tileProps) => {
     return (
-        <div className="flex flex-col max-w-xs bg-white rounded-lg shadow-md overflow-hidden mx-2 my-4 sm:mx-4 sm:my-8">
+        <div className="flex flex-col max-w-xs bg-gray-200 rounded-lg shadow-md overflow-hidden mx-2 my-4 sm:mx-4 sm:my-8">
             <Image className="h-48 w-full object-cover" src={imageSrc} alt={heading} width={99} height={48}/>
             <div className="px-2 sm:px-4 py-2 h-full">
                 <h2 className="font-bold text-lg sm:text-2xl mb-2">{heading}</h2>
@@ -30,7 +30,7 @@ const Tiles = () => {
         <div className="flex flex-col  mx-4 px-4 sm:justify-center sm:items-center">
             <div className="flex flex-col justify-center items-center md:items-start sm:w-2/3 ">
                 <h1 className="text-4xl justify-center sm:justify-start md:text-7xl text-gray-300 mt-10 pb-6">Projects highlights</h1>
-                <div className="flex flex-wrap justify-center bg-white/[0.1] p-6">
+                <div className="flex flex-wrap justify-center bg-gray-500/[0.3] p-6">
                     {tiles.map((tile) => (
                         <Tile
                             key={tile.id}

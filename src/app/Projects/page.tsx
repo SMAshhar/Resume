@@ -4,12 +4,12 @@ import Image from "next/image"
 
 export default function Page() {
     return (
-        <div className="flex flex-col md:flex-row w-screen bg-[url('/bg/grey-horizon-3.jpg')] bg-center justify-start">
-            <div className="absolute bottom-0 right-0 ">
+        <div className="flex flex-col md:flex-row w-screen bg-[url('/bg/grey-horizon-4.jpg')] bg-cover justify-start">
+            {/* <div className="absolute bottom-0 right-0 hidden md:block">
                 <div className="w-62 h-62 ">
                     <Image src="/bg/leaf.png" alt="Icon" width={700} height={700} />
                 </div>
-            </div>
+            </div> */}
             <title>Projects</title>
 
             <SideBar />

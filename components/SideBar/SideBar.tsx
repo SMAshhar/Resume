@@ -5,11 +5,11 @@ import { FaTwitter, FaLinkedin, FaGithub, FaWhatsapp, FaCopyright } from "react-
 
 export default function SideBar() {
     return (
-        <div className="flex flex-col w-full h-auto sm:w-1/5 sm:h-screen justify-center bg-gray-500/[0.5] text-white">
+        <div className="flex flex-col w-full h-auto sm:w-1/5 sm:h-screen justify-center bg-lime-500/[0.3] text-white z-40">
             <div className="w-full flex items-center justify-center">
                 <div className="h-40 w-40 bg-white rounded-full flex items-center justify-center my-4 mt-16 overflow-hidden">
                     <Image
-                        src="/johndoe.jpeg"
+                        src="/DSC_0777.JPG"
                         alt="Profile Picture"
                         width={150}
                         height={150}
@@ -20,20 +20,20 @@ export default function SideBar() {
             <h1 className="text-white flex text-2xl font-bold mt-4 justify-center">Ashhar</h1>
             <p className="text-white flex justify-center text-center mt-6">Web-dev.</p>
             <p className="text-white flex justify-center text-center mb-6">From scratch to deployment</p>
-            <div className="flex flex-col text-lg w-full justify-start sm:items-start  mt-8 mb-8">
-                <Link href="/" className="w-full hover:text-gray-800  hover:bg-gradient-to-b from-gray-500 to-gray-200">
+            <div className="flex flex-col text-lg w-full justify-start sm:items-start mt-8 mb-8">
+                <Link href="/" className="w-full hover:text-gray-900  hover:bg-gradient-to-b from-gray-500 to-lime-500">
                     <div className="py-2 mx-16  hover:text-xl px-2">Home</div>
                 </Link>
-                <Link href='/Projects'  className="w-full hover:text-gray-800 hover:bg-gradient-to-b from-gray-500 to-gray-200">
+                <Link href='/Projects'  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
                     <div className="py-2 mx-16 hover:text-xl px-2">Projects</div>
                 </Link>
-                <Link href="/Experience"  className="w-full hover:text-gray-800 hover:bg-gradient-to-b from-gray-500 to-gray-200">
+                <Link href="/Experience"  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
                     <div className="py-2 mx-16 hover:text-xl px-2">Experience</div>
                 </Link>
-                <Link href="/Works"  className="w-full hover:text-gray-800 hover:bg-gradient-to-b from-gray-500 to-gray-200">
-                    <div className="py-2 mx-16 hover:text-xl px-2">Works</div>
+                <Link href="/Works"  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
+                    <div className="py-2 mx-16 hover:text-xl px-2">Work</div>
                 </Link>
-                <Link href="/AboutMe"  className="w-full hover:text-gray-800 hover:bg-gradient-to-b from-gray-500 to-gray-200">
+                <Link href="/AboutMe"  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
                     <div className="py-2 mx-16 hover:text-xl px-2">About Me</div>
                 </Link>
             </div>
