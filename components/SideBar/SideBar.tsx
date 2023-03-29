@@ -17,24 +17,24 @@ export default function SideBar() {
                     />
                 </div>
             </div>
-            <h1 className="text-white flex text-2xl font-bold mt-4 justify-center">Ashhar</h1>
-            <p className="text-white flex justify-center text-center mt-6">Web-dev.</p>
-            <p className="text-white flex justify-center text-center mb-6">From scratch to deployment</p>
+            <h1 className="text-white flex text-3xl font-bold mt-4 justify-center">Ashhar</h1>
+            <p className="text-white text-lg flex justify-center text-center mt-6">Web-dev.</p>
+            <p className="text-white text-lg flex justify-center text-center mb-6">From scratch to deployment</p>
             <div className="flex flex-col text-lg w-full justify-start sm:items-start mt-8 mb-8">
                 <Link href="/" className="w-full hover:text-gray-900  hover:bg-gradient-to-b from-gray-500 to-lime-500">
-                    <div className="py-2 mx-16  hover:text-xl px-2">Home</div>
+                    <div className="py-2 mx-16  text-xl px-2">Home</div>
                 </Link>
                 <Link href='/Projects'  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
-                    <div className="py-2 mx-16 hover:text-xl px-2">Projects</div>
+                    <div className="py-2 mx-16 text-xl px-2">Projects</div>
                 </Link>
                 <Link href="/Experience"  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
-                    <div className="py-2 mx-16 hover:text-xl px-2">Experience</div>
+                    <div className="py-2 mx-16 text-xl px-2">Companies</div>
                 </Link>
                 <Link href="/Works"  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
-                    <div className="py-2 mx-16 hover:text-xl px-2">Work</div>
+                    <div className="py-2 mx-16 text-xl px-2">Websites</div>
                 </Link>
                 <Link href="/AboutMe"  className="w-full hover:text-gray-900 hover:bg-gradient-to-b from-gray-500 to-lime-500">
-                    <div className="py-2 mx-16 hover:text-xl px-2">About Me</div>
+                    <div className="py-2 mx-16 text-xl px-2">About Me</div>
                 </Link>
             </div>
             <div className="flex items-center justify-center sm:visible mt-auto mb-8">
